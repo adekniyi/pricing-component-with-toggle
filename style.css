@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.write{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 1.5%;
+    width: 65%;
+    justify-content: space-around;
+    align-items: center;
+}
+.grid{
+    /* height: 100px; */
+    text-align: center;
+    width: 33.333%;
+    background-color: hsl(0, 1%, 44%);
+}
+.grid h5{
+   padding-top: 2rem;
+}
+.grid h2{
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    font-size: 3rem;
+ }
+ .grid h6{
+    padding-bottom: 1.4rem;
+    /* font-size: 3rem; */
+ }
+.grid1{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.grid3{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.grid1,.grid3{
+    height: 300px;
+    background-color: hsl(240, 78%, 98%);
+}
+.grid2{
+    height: 350px;
+    border-radius: 5px;
+    background-image: Linear-gradient(hsl(236, 72%, 79%),hsl(237, 63%, 64%));
+}
+.grid2 h5{
+    padding-top: 3.4rem;
+    color: white;
+ }
+
+ input{
+     width: 75%;
+     height: 30px;
+     border-radius: 5px;
+     border: none;
+     cursor: pointer;
+ }
+ .grid1 input,.grid3 input{
+    background-image: Linear-gradient(to right, hsl(236, 72%, 79%),hsl(237, 63%, 64%));
+}
+.grid2 input{
+    color: hsl(237, 63%, 64%);
+    background-color: white;
+}
